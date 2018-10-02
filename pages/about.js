@@ -1,10 +1,7 @@
-import Menu from '../components/Menu'
+import Layout from '../components/Layout'
 
 export default () => (
-  <div>
-    <Menu />
-    <main>
-      Welcome to the about page.
-    </main>
-  </div>
+  <Layout>
+    Welcome to the about page.
+  </Layout>
 )

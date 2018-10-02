@@ -1,13 +1,7 @@
-import Menu from '../components/Menu'
+import Layout from '../components/Layout'
 
-const Index = () => (
-  <div>
-    <h1>First NextJS</h1>
-    <Menu />
-    <main>
-      Welcome to the first Next.js app.
-    </main>
-  </div>
+export default () => (
+  <Layout>
+    Welcome to the first Next.js app.
+  </Layout>
 )
-
-export default Index
