@@ -1,11 +1,9 @@
-import Link from 'next/link'
+import Menu from '../components/Menu'
 
 const Index = () => (
   <div>
     <h1>First NextJS</h1>
-    <nav>
-      <Link href='/about'>About</Link>
-    </nav>
+    <Menu />
     <main>
       Welcome to the first Next.js app.
     </main>
