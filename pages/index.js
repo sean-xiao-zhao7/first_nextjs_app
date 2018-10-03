@@ -1,7 +1,14 @@
-import Layout from '../components/Layout'
+import Layout from '../components/common/Layout'
+import Post from '../components/index/Post'
+import fetch from 'isomorphic-unfetch'
 
-export default () => (
+export Index = (props) => (
   <Layout>
-    Welcome to the first Next.js app.
+    <h2>Welcome to the first Next.js app.</h2>
+    <ul>
+      <Post id='first' title='First'/>
+      <Post id='second' title='Second'/>
+      <Post id='third' title='Third'/>
+    </ul>
   </Layout>
 )
